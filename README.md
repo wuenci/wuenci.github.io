@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# wuenci.github.io
-La memoria di wuenci
-=======
 # La memoria di wuenci (0x0000001A)
 
 Una piccola wiki che aiuta ad alimentare la memoria del mio cervello modello 80-286 dei anni '70.
@@ -38,4 +34,3 @@ MDWiki
 ## Autori
 
 * **Adrian Unterfinger** - *Source e Wiki* - [MSDN Profile](https://social.msdn.microsoft.com/profile/wuenci/) | [GitHub](https://github.com/wuenci)
->>>>>>> Initial Commit
