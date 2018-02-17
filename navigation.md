@@ -8,7 +8,7 @@
   * [Threads](csharp/threads/async.md)
   - - - -
   * # Database
-  * [Entity Framework](database/entityframework.md)
+  * [Entity Framework](csharp/database/entityframework.md)
   
 [Git](git/git.md)
 [Powershell](powershell/powershell.md)
