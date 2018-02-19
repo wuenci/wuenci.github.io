@@ -62,11 +62,7 @@ Nella soluzione trovi e seguenti esempi che spiegherò nelle pagine successive:
 - BasicExample
 - WpfAppExample
 	
-## Fonti
+## Riferimento
 https://msdn.microsoft.com/it-it/library/hh191443%28v=vs.120%29.aspx?f=255&MSPPError=-2147217396
-https://www.video2brain.com/de/tutorial/elegant-mit-async-und-await-codieren
-https://www.video2brain.com/de/tutorial/asynchrone-programmierung-in-net
-https://docs.microsoft.com/it-it/windows/uwp/threading-async/
 https://docs.microsoft.com/it-it/dotnet/csharp/async
-http://www.hinzberg.net/csharp/csharp/csharp/threadevents.html
 Libri C#

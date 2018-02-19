@@ -11,7 +11,7 @@ Ma come noi sappiamo, in C# tutto è orientato agli oggetti senza eccezione, per
 La definizione ufficiale di un delegato è:
 **Un delegato è un tipo sicuro che rappresenta un riferimento ad un metodo con un elenco di parametri e un tipo restituito particolare.**
 
- ![image.png](.attachements/puntatore-delegati.png)
+ ![image.png](img/puntatore-delegati.png)
 
 Ma io direi che è più facile a capire se la dico così:
 _Un delegato è un tipo che punta su un metodo._
@@ -52,10 +52,10 @@ Dopo chiamiamo il delegato passandoli il valore del parametro richiesto del meto
 
 E per concludere il codice completo
 
-![image.png](.attachements/source.png)
+![image.png](img/source.png)
 
-## Fonti
-https://docs.microsoft.com/it-it/dotnet/csharp/programming-guide/delegates/using-delegates
+## Riferimento
+https://docs.microsoft.com/it-ch/dotnet/csharp/programming-guide/delegates/
 Libri C#
 
 
@@ -64,8 +64,8 @@ Ho potuto aiutarti con questo articolo? Likami su facebook.
 [gimmick:FacebookLike](http://www.facebook.com)
 
 Vuoi sentire di più da me? Seguimi su twitter.
-[gimmick:TwitterFollow](@timodoerr)
+[gimmick:TwitterFollow](@wuenci)
 
 Hai voglia di discutere?
-[gimmick:Disqus](your_disqus_shortname)
+[gimmick:Disqus](0x0000001a)
 

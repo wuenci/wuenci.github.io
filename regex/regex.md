@@ -106,6 +106,8 @@ Un breve esempio come usare le espressioni regolari in C#
     }
 ```
 
-##Source:
-Github: https://github.com/wuenci/RegExDemo
-VSTS: https://nc-training.visualstudio.com/RegExTutorial
+## Sorgente
+https://github.com/wuenci/RegExDemo
+
+## Riferimento
+https://docs.microsoft.com/it-ch/dotnet/standard/base-types/regular-expressions
