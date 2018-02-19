@@ -57,15 +57,3 @@ E per concludere il codice completo
 ## Riferimento
 https://docs.microsoft.com/it-ch/dotnet/csharp/programming-guide/delegates/
 Libri C#
-
-
-## Feeback
-Ho potuto aiutarti con questo articolo? Likami su facebook.
-[gimmick:FacebookLike](http://www.facebook.com)
-
-Vuoi sentire di più da me? Seguimi su twitter.
-[gimmick:TwitterFollow](@wuenci)
-
-Hai voglia di discutere?
-[gimmick:Disqus](0x0000001a)
-
