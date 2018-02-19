@@ -1,6 +1,6 @@
 # La memoria di wuenci (0x0000001A)
 
-Una piccola wiki che aiuta ad alimentare la memoria del mio cervello modello 80-286 dei anni '70.
+Una piccola wiki che aiuta ad alimentare la memoria del mio cervello modello 8080 dei anni '70.
 
 ![Cervello modello 80-286](img-cervello-stupido.png)
 
@@ -22,13 +22,13 @@ Programmi che si devono installare per garantire un corretto funzionamento del c
 
 ```
 Editor di testo
-Mardown
+Conoscenze Mardown
 MDWiki
 ```
 
 ## Creato con
 
-* [Visualstudio Professional Code](https://code.visualstudio.com/)
+* [Visualstudio Code](https://code.visualstudio.com/)
 * [MDWiki](http://dynalon.github.io/mdwiki/#!index.md)
 
 ## Autori
