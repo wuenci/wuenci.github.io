@@ -129,6 +129,6 @@ Install-Package EntityFramework
 ## Creare uno script di Deploy per il server di produzione
 `PM> Update-Database -Script -SourceMigration InsertSampleData3 -TargetMigration InsertSampleDataNEW`
 
-## Whitepapers 
-Entity Framework Code First Migrations:  
-[https://msdn.microsoft.com/en-us/library/jj591621(v=vs.113).aspx](https://msdn.microsoft.com/en-us/library/jj591621(v=vs.113).aspx)
+## Riferimento 
+Whitepaper relativo al entity framework code first migration:  
+https://msdn.microsoft.com/en-us/library/jj591621(v=vs.113).aspx
