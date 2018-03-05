@@ -18,7 +18,7 @@ Il path del file di configurazione si trova nella %HOMEPATH%\.gitconfig
 ```
 
 ### Lo schema funzionalità base
-![_media\schema-base.png](_media\schema-base.png)
+![schema-base.png](schema-base.png)
 
 ## Working and Staging
 
