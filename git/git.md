@@ -109,6 +109,12 @@ Questa operazione non cambia nessuno dei tuoi rami locali sotto `refs/heads`, pe
 Rebase ti permette di allienare la commit history nella sequenza desiderata sul tuo repository.  
 _In altre parole ti permette di scegliere le modifiche che sono state effettuate su un branch remoto che non è più allienato al tuo locale. In caso un collega ha gia fatto un push dei suoi lavori._  
 
+### Stash
+`git stash`  
+Git stash ti permette di salvare lo stato attuale senza effettuare un commit.  
+
+`git pop`  
+Git pop ti permette di riprendere uno stato salvato da git stash.
 
 ### Differenzen anzeigen
 `git diff`  
