@@ -19,7 +19,6 @@ Il path del file di configurazione si trova nella %HOMEPATH%\.gitconfig
 
 ### Lo schema funzionalità base
 ![_media\schema-base.png](_media\schema-base.png)
-<img src="_media\schema-base.png" alt="Schema base" width="450" height="whatever">  
 
 ## Working and Staging
 
