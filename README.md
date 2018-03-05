@@ -1,8 +1,12 @@
 ﻿# La memoria di wuenci (0x0000001A)
 
+<<<<<<< HEAD
 Una piccola wiki che aiuta ad alimentare la memoria del mio cervello modello 8080 dei anni '70. REBASE LOCALE
+=======
+Una piccola wiki che aiuta ad alimentare la memoria del mio cervello modello 8080 dei anni '70. 
+>>>>>>> refs/remotes/origin/master
 
-![Cervello modello 80-286](img-cervello-stupido.png)
+![Cervello modello 80-286](img-cervello-stupido.png) REBASE REMOTO
 
 ## Istruzione per lo sviluppatore
 
