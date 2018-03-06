@@ -111,6 +111,7 @@ Funziona solo per allienare repos locali _(scaricati con fetch)_, mai per quelli
 _In altre parole ti permette di scegliere le modifiche che sono state effettuate su un branch remoto che non è più allienato al tuo locale. In caso un collega ha gia fatto un push dei suoi lavori._ 
 
 ## Merge
+`git merge [branchName]` 
  Merge serve per riconciliare diversi branches.  
  Il 3 way merge è il piu facile di tutto e si chiama anche fast forward.  
  ![3 Way Merge](img\merge.png)
