@@ -20,6 +20,9 @@ Il path del file di configurazione si trova nella %HOMEPATH%\.gitconfig
 ### Lo schema funzionalità base
 ![schema-base.png](img/schema-base.png)
 
+Spiegazione in video. I tre alberi di git:
+[](https://youtu.be/1GFIZFXGMXY)
+
 ## Working and Staging
 
 ### Inizializzare un progetto
@@ -65,6 +68,8 @@ oppire:
 ### Änderungen egal welcher natur unbedingt zurücksetzten
 `git reset HEAD --hard` (HEAD = Letzte bekante version)
 
+[](https://youtu.be/LX11jimGDGk)
+
 ## Remotes con Push e Pulling
 
 ### Aggiungere un remote
@@ -78,8 +83,13 @@ oppire:
 
 Note! Git pull o push fa un git fetch seguito da una git merge  
 
+Pull rrequest video:
+[](https://youtu.be/JsuPFy3ic2c)
+
 ### Creare un Brunch
 `git branch [nome_del_branch]`
+
+[](https://youtu.be/Ir1KfssniRI)
 
 ### Visualizzare il Branch attuale
 `git branch` -> Visulaizza quelli locali  
@@ -126,9 +136,7 @@ Git pop ti permette di riprendere uno stato salvato da git stash.
 
 
 ### Video sulla differenza tra merge e rebase
-<div align="center">
-  <a href="https://youtu.be/dO9BtPDIHJ8"><img src="https://youtu.be/dO9BtPDIHJ8" alt="Differenza tra merge e rebase"></a>
-</div>
+[](https://youtu.be/dO9BtPDIHJ8)
 
 
 ### Differenzen anzeigen
