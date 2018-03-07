@@ -113,7 +113,7 @@ _In altre parole ti permette di scegliere le modifiche che sono state effettuate
 ## Merge
 `git merge [branchName]`  
  Merge serve per riconciliare diversi branches.  
- Il 3 way merge è il piu facile di tutto e si chiama anche fast forward.  
+ Il 3 way merge è il piu facile da fare, ma non tiene traccia dei commits che sono stati effetuati nel feature brunch.  
 
  ![3 Way Merge](img\merge.png)
 
@@ -123,6 +123,13 @@ Git stash ti permette di salvare lo stato attuale senza effettuare un commit.
 
 `git pop`  
 Git pop ti permette di riprendere uno stato salvato da git stash.
+
+
+### Video sulla differenza tra merge e rebase
+<div align="center">
+  <a href="https://youtu.be/dO9BtPDIHJ8"><img src="https://youtu.be/dO9BtPDIHJ8" alt="Differenza tra merge e rebase"></a>
+</div>
+
 
 ### Differenzen anzeigen
 `git diff`  
