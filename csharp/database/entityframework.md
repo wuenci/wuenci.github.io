@@ -149,15 +149,20 @@ Let's configure a one-to-many relationship between the following Student and Gra
 ```
 public class Student
 {
-    public int StudentId { get; set; }
-    public string StudentName { get; set; }
+    public int Id { get; set; }
+    public string Name { get; set; }
+    
+    public int GradeId { get; set; }
+    public Grade Grade { get; set; }
 }
-       
+
 public class Grade
 {
+
     public int GradeId { get; set; }
     public string GradeName { get; set; }
-    public string Section { get; set; }
+    
+    public ICollection<Student> Student { get; set; }
 }
 ```
 
