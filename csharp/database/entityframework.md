@@ -194,19 +194,6 @@ public class Course
 }
 ```
 
-public class Student
-{
-    public int StudentId { get; set; }
-    public string StudentName { get; set; }
-}
-       
-public class Grade
-{
-    public int GradeId { get; set; }
-    public string GradeName { get; set; }
-    public string Section { get; set; }
-}
-```
 
 ## Aggiungere il Database nel SQL Server
 - Aprire una console di NuGet  
