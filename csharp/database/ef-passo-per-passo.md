@@ -1,6 +1,6 @@
 # Entity Framework 6.1 code first - passo per passo
 
-##Guida per l'aggiunta di EF6 Code first in un progetto ex nuovo.
+## Guida per l'aggiunta di EF6 Code first in un progetto ex nuovo.
 
 ### 1) Installare EF 6 tramite Nuget
 Aggiungere il Framework tramite la console di powershell integrata in Visual Studio:
