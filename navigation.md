@@ -2,7 +2,6 @@
 [Home](index.md)
 [Regex](regex/regex.md)
 [C#]()
-
   * # Concetti
   * [Delegates](csharp/delegates/delegates.md)
   * [Threads](csharp/threads/async.md)
@@ -10,6 +9,7 @@
   * # Entity Framework
   * [Entity Framework](csharp/database/entityframework.md)
   * [Ef 6 passo per passo](csharp/database/ef-passo-per-passo.md)
+  * [Ef 6 Query](csharp/database/ef-query.md)
   
 [Git](git/git.md)
 [Powershell](powershell/powershell.md)
