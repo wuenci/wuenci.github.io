@@ -1,20 +1,21 @@
 # Entity Framework 6.1 code first - passo per passo
 
-Guida per l'aggiunta di EF6 Code first in un progetto ex nuovo.
+##Guida per l'aggiunta di EF6 Code first in un progetto ex nuovo.
 
-## 1) Installare EF 6 tramite Nuget
-- Aggiungere il Framework tramite la console di powershell integrata in Visual Studio:
+### 1) Installare EF 6 tramite Nuget
+Aggiungere il Framework tramite la console di powershell integrata in Visual Studio:
+
 ```
 Install-Package EntityFramework
 ```
 
-## 2) Aggiungere la connection string nel file di configurazione app.config
+### 2) Aggiungere la connection string nel file di configurazione app.config
 Se installi EF 6 in una __class library__ devi aggiungere la stringa di connessione sia nella class library che nel progetto primario. Ê neccessario solomente per la fase di sviluppo, in fase di produzione è basta la Assembly primaria.
 ```
 TODO: INCOLLARE LA CONNECTION STRING
 ```
 
-## 3) Creare i modelli
+### 3) Creare i modelli
 Esempio di due tabelle 1 a n
 ```
     [Table("Rapporti")]  // Nome della Tabella nel database
@@ -75,7 +76,7 @@ Esempio di due tabelle 1 a n
         public virtual ICollection<Rapporto> Rapporti { get; set; }
     }
 ```
-## 3) Creare il DBContext con il Model
+### 4) Creare il DBContext con il Model
 Creare il DB Context nella cartella Models
 
 ```
@@ -96,27 +97,23 @@ Creare il DB Context nella cartella Models
     }
 ```
 
-## 4 ) Enable Migratione
+### 5 ) Enable Migratione
 Impostare le migrazioni
 ```
 Enable-Migrations` // Aggiunge il file Configuration.cs nella cartella Migrations 
 ```
 
-## 5 ) Aggiungere i seed iniziali
+### 6 ) Aggiungere i seed iniziali
 ```
 TODO: SEED INIZIALE
 ```
 
-## 6 ) Fare la prima migrazione
+### 7 ) Fare la prima migrazione
 ```
 Add-Migration InitialCreate   
 ```
 
-## 7 ) Creare il DB per la prima volta e poi aggiornalo
+### 8 ) Creare il DB per la prima volta e poi aggiornalo
 ```
 Update-Database
 ```
-
-
-
-
