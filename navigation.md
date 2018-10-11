@@ -11,7 +11,9 @@
   * [Entity Framework](csharp/database/entityframework.md)
   * [Ef 6 passo per passo](csharp/database/ef-passo-per-passo.md)
   * [Ef 6 Query](csharp/database/ef-query.md)
-  
+  - - - -
+  * # Autofac dependency injection
+  * [Autofac passo per passo](csharp/autofac/autofac-passo-per-passo.md)
 [Git](git/git.md)
 [Powershell](powershell/powershell.md)
 
