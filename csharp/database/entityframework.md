@@ -94,8 +94,7 @@ Install-Package EntityFramework
         [Required]
         public int CategoriaId { get; set; }
     }
-```
-```
+
     [Table("Categorie")]
     public class Categoria
     {
@@ -113,6 +112,100 @@ Install-Package EntityFramework
 
         public virtual ICollection<Rapporto> Rapporti { get; set; }
     }
+```
+
+### Esempio di relazioni
+__Esempio di una relazione 1 a 1__   
+Here, you will learn to configure One-to-Zero-or-One relationships between two entities. 
+We will implement a one-to-Zero-or-One relationship between the following Student and StudentAddress entities.   
+
+```
+public class Student
+{
+    public int StudentId { get; set; }
+    public string StudentName { get; set; }
+
+    public virtual StudentAddress Address { get; set; }
+}
+     
+public class StudentAddress 
+{
+    public int StudentAddressId { get; set; }
+    public string Address1 { get; set; }
+    public string Address2 { get; set; }
+    public string City { get; set; }
+    public int Zipcode { get; set; }
+    public string State { get; set; }
+    public string Country { get; set; }
+
+    public virtual Student Student { get; set; }
+}
+```
+
+__Esempio di una relazione 1 a n__
+Here, we will learn how to configure One-to-Many relationships between two entities (domain classes) in Entity Framework 6.x using the code-first approach. 
+Let's configure a one-to-many relationship between the following Student and Grade entities where there can be many students in one grade.   
+
+```
+public class Student
+{
+    public int StudentId { get; set; }
+    public string StudentName { get; set; }
+}
+       
+public class Grade
+{
+    public int GradeId { get; set; }
+    public string GradeName { get; set; }
+    public string Section { get; set; }
+}
+```
+
+__Esempio di una relazione n a n__
+Here, we will learn how to configure a Many-to-Many relationship between the Student and Course entity classes. Student can join multiple courses and multiple students can join one Course. 
+Visit the Entity Relationship chapter to understand how EF manages one-to-one, one-to-many and many-to-many relationships between entities.   
+
+```
+public class Student
+{
+    public Student() 
+    {
+        this.Courses = new HashSet<Course>();
+    }
+
+    public int StudentId { get; set; }
+    [Required]
+    public string StudentName { get; set; }
+
+    public virtual ICollection<Course> Courses { get; set; }
+}
+        
+public class Course
+{
+    public Course()
+    {
+        this.Students = new HashSet<Student>();
+    }
+
+    public int CourseId { get; set; }
+    public string CourseName { get; set; }
+
+    public virtual ICollection<Student> Students { get; set; }
+}
+```
+
+public class Student
+{
+    public int StudentId { get; set; }
+    public string StudentName { get; set; }
+}
+       
+public class Grade
+{
+    public int GradeId { get; set; }
+    public string GradeName { get; set; }
+    public string Section { get; set; }
+}
 ```
 
 ## Aggiungere il Database nel SQL Server

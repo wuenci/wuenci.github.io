@@ -119,8 +119,27 @@ Enable-Migrations` // Aggiunge il file Configuration.cs nella cartella Migration
 ```
 
 ### 6 ) Aggiungere i seed iniziali
+Nel file di configurazione che si è creato si può inserire dei dati iniziali d'esempio.   
 ```
-TODO: SEED INIZIALE
+        protected override void Seed(Indirizzario.Db.Models.IndirizzarioDbContext context)
+        {
+            //  This method will be called after migrating to the latest version.
+
+            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
+            //  to avoid creating duplicate seed data.
+
+            context.People.AddOrUpdate(x => x.Id,
+            new Person() { Id=1, FirstName = "Max", LastName = "Mustermann", Gender="Maschio" },
+            new Person() { Id=2, FirstName = "Massimo", LastName = "Esempio", Gender = "Maschio" }
+            );
+
+            context.Addresses.AddOrUpdate(x => x.Id,
+            new Address() { Street="via belle cose", Postcode="66452", Town="Gordolanino", State="Ticino", Country="Svizzera", PersonId=1  },
+            new Address() { Street = "Nel Nucleo 50", Postcode = "69543", Town = "Bidognoasco", State = "Ticino", Country = "Svizzera", PersonId = 1 },
+            new Address() { Street = "via Statale", Postcode = "65847", Town = "Milano", State = "Lombardia", Country = "Italia", PersonId = 2 }
+            );
+
+        }
 ```
 
 ### 7 ) Fare la prima migrazione
