@@ -12,7 +12,19 @@ Install-Package EntityFramework
 ### 2) Aggiungere la connection string nel file di configurazione app.config
 Se installi EF 6 in una __class library__ devi aggiungere la stringa di connessione sia nella class library che nel progetto primario. Ê neccessario solomente per la fase di sviluppo, in fase di produzione è basta la Assembly primaria.
 ```
-TODO: INCOLLARE LA CONNECTION STRING
+  <configSections>
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+    <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false"/>
+  </configSections>
+  <connectionStrings>
+    <add name="IndirizzarioConnString" providerName="System.Data.SqlClient" connectionString="Server=.\SQLEXPRESS;Database=Indirizzario;Integrated Security=True;"/>
+  </connectionStrings>
+  <entityFramework>
+    <defaultConnectionFactory type="System.Data.Entity.Infrastructure.SqlConnectionFactory, EntityFramework"/>
+    <providers>
+      <provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer"/>
+    </providers>
+  </entityFramework>
 ```
 
 ### 3) Creare i modelli
