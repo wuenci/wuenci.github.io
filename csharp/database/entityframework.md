@@ -9,7 +9,7 @@ Poiché Entity Framework è un componente di .NET Framework, le applicazioni Ent
 
 https://msdn.microsoft.com/it-it/library/bb399567(v=vs.110).aspx
 
-### Attivare EF6 nel Progetto di Visual Studio
+### Attivare EF6 nel progetto di Visual Studio
 Aggiungere il Framework tramite NuGet:
 ```
 Install-Package EntityFramework
@@ -200,7 +200,7 @@ public class Course
 ```
 
 
-### Aggiungere il Database nel SQL Server
+### Aggiungere il database nel SQL Server
 - Aprire una console di NuGet  
 - Aggiungere seguenti comandi:  
 `PM> Enable-Migrations` // Aggiunge il file Configuration.cs nella cartella Migrations  
@@ -211,7 +211,7 @@ public class Course
 `PM> Add-Migration AddedConstrains`  
 `PM> Update-Database`
 
-## Creare uno script di Deploy per il server di produzione
+## Creare uno script di deploy per il server di produzione
 `PM> Update-Database -Script -SourceMigration InsertSampleData3 -TargetMigration InsertSampleDataNEW`
 
 ### Riferimento 
