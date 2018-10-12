@@ -114,7 +114,7 @@ Il denominatore `virtual` si aggiunge per poter effettuare il Lazy Loading. (Car
     }
 ```
 
-#### Esempio di relazioni
+### Relazioni
 __Esempio di una relazione 1 a 1__   
 Here, you will learn to configure One-to-Zero-or-One relationships between two entities. 
 We will implement a one-to-Zero-or-One relationship between the following Student and StudentAddress entities.   
