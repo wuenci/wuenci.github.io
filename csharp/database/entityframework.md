@@ -1,4 +1,4 @@
-# Basics di Entity Framework 6.1
+# Le basi dell'Entity Framework 6.1
 Entity Framework è un set di tecnologie ADO.NET che supportano lo sviluppo di applicazioni software orientate ai dati.
 
 Entity Framework consente agli sviluppatori di usare i dati sotto forma di proprietà e oggetti specifici di un dominio.
@@ -9,13 +9,13 @@ Poiché Entity Framework è un componente di .NET Framework, le applicazioni Ent
 
 https://msdn.microsoft.com/it-it/library/bb399567(v=vs.110).aspx
 
-## Attivare il Framework nel Progetto di Visual Studio
+### Attivare EF6 nel Progetto di Visual Studio
 - Aggiungere il Framework tramite NuGet:
 ```
 Install-Package EntityFramework
 ```
 
-## Creare un dominio di modelli - le properties
+### Creare un dominio di modelli
 ```
     [Table("Rilevamenti")]
     public class Rilevamento
@@ -26,7 +26,7 @@ Install-Package EntityFramework
     }
 ```
 
-## Mappare un dominio di dati - il DbContext
+### Mappare un dominio di dati - il DbContext
 
 ```
     public class EFFullDemoDBContext : DbContext // Erredita da DBContext
@@ -39,7 +39,7 @@ Install-Package EntityFramework
     }
 ```
 
-## Ovveride OnModelCreate()
+### Ovveride OnModelCreate()
 - PluralizingTableNameConvention
 ```
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -50,7 +50,7 @@ Install-Package EntityFramework
         }
 ```
 
-## Attributi, virtual e campi obbligatori
+### Attributi, virtual e campi obbligatori
 - Il nome della tabella si definisce tramite un attributo [Table("NomeTabella")]  
 - Il denominatore `virtual` si aggiunge per poter effettuare il Lazy Loading. (Carica dati in un secondo momento).
 
@@ -114,7 +114,7 @@ Install-Package EntityFramework
     }
 ```
 
-### Esempio di relazioni
+#### Esempio di relazioni
 __Esempio di una relazione 1 a 1__   
 Here, you will learn to configure One-to-Zero-or-One relationships between two entities. 
 We will implement a one-to-Zero-or-One relationship between the following Student and StudentAddress entities.   
@@ -200,20 +200,20 @@ public class Course
 ```
 
 
-## Aggiungere il Database nel SQL Server
+### Aggiungere il Database nel SQL Server
 - Aprire una console di NuGet  
 - Aggiungere seguenti comandi:  
 `PM> Enable-Migrations` // Aggiunge il file Configuration.cs nella cartella Migrations  
 `PM> Add-Migration InitialCreate`  
 `PM> Update-Database -Verbose`  
 
-## Modificare le tabelle o i dati nel database
+### Modificare le tabelle o i dati nel database
 `PM> Add-Migration AddedConstrains`  
 `PM> Update-Database`
 
 ## Creare uno script di Deploy per il server di produzione
 `PM> Update-Database -Script -SourceMigration InsertSampleData3 -TargetMigration InsertSampleDataNEW`
 
-## Riferimento 
+### Riferimento 
 Whitepaper relativo al entity framework code first migration:  
 https://msdn.microsoft.com/en-us/library/jj591621(v=vs.113).aspx
