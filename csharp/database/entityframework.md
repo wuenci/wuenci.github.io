@@ -10,7 +10,7 @@ Poiché Entity Framework è un componente di .NET Framework, le applicazioni Ent
 https://msdn.microsoft.com/it-it/library/bb399567(v=vs.110).aspx
 
 ### Attivare EF6 nel Progetto di Visual Studio
-- Aggiungere il Framework tramite NuGet:
+Aggiungere il Framework tramite NuGet:
 ```
 Install-Package EntityFramework
 ```
@@ -40,7 +40,7 @@ Install-Package EntityFramework
 ```
 
 ### Ovveride OnModelCreate()
-- PluralizingTableNameConvention
+PluralizingTableNameConvention
 ```
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -51,8 +51,8 @@ Install-Package EntityFramework
 ```
 
 ### Attributi, virtual e campi obbligatori
-- Il nome della tabella si definisce tramite un attributo [Table("NomeTabella")]  
-- Il denominatore `virtual` si aggiunge per poter effettuare il Lazy Loading. (Carica dati in un secondo momento).
+Il nome della tabella si definisce tramite un attributo [Table("NomeTabella")]  
+Il denominatore `virtual` si aggiunge per poter effettuare il Lazy Loading. (Carica dati in un secondo momento).
 
 ```
     [Table("Rapporti")]  // Nome della Tabella nel database
