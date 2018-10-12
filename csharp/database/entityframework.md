@@ -7,7 +7,9 @@ Con Entity Framework, gli sviluppatori possono operare a un livello superiore di
 
 Poiché Entity Framework è un componente di .NET Framework, le applicazioni Entity Framework possono essere eseguite su qualsiasi computer in cui è installato .NET Framework 3.5 SP1 o versione successiva. 
 
-https://msdn.microsoft.com/it-it/library/bb399567(v=vs.110).aspx
+Esempi trovi qua:   
+https://msdn.microsoft.com/it-it/library/bb399567(v=vs.110).aspx  
+
 
 ### Attivare EF6 nel progetto di Visual Studio
 Aggiungere il Framework tramite NuGet:
@@ -115,6 +117,11 @@ Il denominatore `virtual` si aggiunge per poter effettuare il Lazy Loading. (Car
 ```
 
 ### Relazioni
+
+Esempi trovi qua:  
+http://www.entityframeworktutorial.net/entity-relationships.aspx  
+
+
 __Esempio di una relazione 1 a 1__   
 Here, you will learn to configure One-to-Zero-or-One relationships between two entities. 
 We will implement a one-to-Zero-or-One relationship between the following Student and StudentAddress entities.   
@@ -142,7 +149,7 @@ public class StudentAddress
 }
 ```
 
-__Esempio di una relazione 1 a n__
+__Esempio di una relazione 1 a n__  
 Here, we will learn how to configure One-to-Many relationships between two entities (domain classes) in Entity Framework 6.x using the code-first approach. 
 Let's configure a one-to-many relationship between the following Student and Grade entities where there can be many students in one grade.   
 
@@ -166,7 +173,7 @@ public class Grade
 }
 ```
 
-__Esempio di una relazione n a n__
+__Esempio di una relazione n a n__  
 Here, we will learn how to configure a Many-to-Many relationship between the Student and Course entity classes. Student can join multiple courses and multiple students can join one Course. 
 Visit the Entity Relationship chapter to understand how EF manages one-to-one, one-to-many and many-to-many relationships between entities.   
 
@@ -203,7 +210,7 @@ public class Course
 ### Aggiungere il database nel SQL Server
 - Aprire una console di NuGet  
 - Aggiungere seguenti comandi:  
-`PM> Enable-Migrations` // Aggiunge il file Configuration.cs nella cartella Migrations  
+`PM> Enable-Migrations`            // Aggiunge il file Configuration.cs nella cartella Migrations  
 `PM> Add-Migration InitialCreate`  
 `PM> Update-Database -Verbose`  
 
@@ -211,7 +218,7 @@ public class Course
 `PM> Add-Migration AddedConstrains`  
 `PM> Update-Database`
 
-## Creare uno script di deploy per il server di produzione
+### Creare uno script di deploy per il server di produzione
 `PM> Update-Database -Script -SourceMigration InsertSampleData3 -TargetMigration InsertSampleDataNEW`
 
 ### Riferimento 
