@@ -14,9 +14,9 @@
   * # Autofac dependency injection
   * [Autofac guida passo per passo](csharp/autofac/autofac-passo-per-passo.md)
   
-[Git basics](git/git.md)
+[Git Mini HowTo](git/git.md)
 
-[Regex](regex/regex.md)
+[Espressioni regolari](regex/regex.md)
 
 [Powershell](powershell/powershell.md)
 
