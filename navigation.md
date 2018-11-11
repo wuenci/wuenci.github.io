@@ -24,7 +24,7 @@
 [Visual Studio]()
 
   * # Visual Studio e Resharper
-  * [Visual Studio Sortcuts](visualstudio/vs-shortcuts.md)
+  * [Visual Studio Shortcuts](visualstudio/vs-shortcuts.md)
 
 [UX Design e Usability]()
 
