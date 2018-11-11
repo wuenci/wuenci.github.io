@@ -1,5 +1,4 @@
 # 0x0000001A
-[Home](index.md)
 
 [Programmazione C#]()
 
@@ -15,7 +14,7 @@
   * # Autofac dependency injection
   * [Autofac guida passo per passo](csharp/autofac/autofac-passo-per-passo.md)
   
-[Git](git/git.md)
+[Git basics](git/git.md)
 
 [Regex](regex/regex.md)
 
