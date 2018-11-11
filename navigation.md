@@ -17,7 +17,11 @@
   - - - -
   * # Autofac dependency injection
   * [Autofac guida passo per passo](csharp/autofac/autofac-passo-per-passo.md)
-  
+
+[Visual Studio]()
+  * # Visual Studio e Resharper
+  * [Visual Studio Sortcuts](visualstudio/vs-shortcuts.md)
+
 [Git Mini HowTo](git/git.md)
 
 [Espressioni regolari](regex/regex.md)
