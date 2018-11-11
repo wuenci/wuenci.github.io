@@ -1,6 +1,6 @@
 # L'utilizzo dei delegati spiegati in parole semplici
 
-## Il delegato
+### Il delegato
 Innanzitutto vorrei dire che capire il funzionamento dei "**delegati**" non è molto semplice, almeno io c'ho messo parecchio tempo sposare il concetto dei delegati.
 Purtroppo gli esempi nei vari libri che si trovano sul mercato sono spesso troppo complessi
 Per questo motivo ho deciso di dedicare un capitolo intero sui delegati nella Wiki spiegando il loro funzionamento con dei esempi di base.
@@ -54,6 +54,6 @@ E per concludere il codice completo
 
 ![image.png](img/source.png)
 
-## Riferimento
+### Riferimento
 https://docs.microsoft.com/it-ch/dotnet/csharp/programming-guide/delegates/
 Libri C#
