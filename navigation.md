@@ -13,7 +13,7 @@
   - - - -
   * # Validazione in MVC con Jquery
   * [Validazione standard](csharp/mvc/validation/standard-validation.md)
-  * [Validazione custom](csharp/mvc/validation/customn-validation.md)
+  * [Validazione custom](csharp/mvc/validation/custom-validation.md)
   - - - -
   * # Autofac dependency injection
   * [Autofac guida passo per passo](csharp/autofac/autofac-passo-per-passo.md)
