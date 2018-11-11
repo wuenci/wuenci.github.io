@@ -1,3 +1,3 @@
-# Standard validation
+# La validazione standard
 
 // TODO
