@@ -1,7 +1,9 @@
 # 0x0000001A
 [Home](index.md)
+
 [Regex](regex/regex.md)
-[C#]()
+
+[Programmazione C#]()
 
   * # Concetti
   * [Delegates](csharp/delegates/delegates.md)
@@ -16,7 +18,12 @@
   * [Autofac guida passo per passo](csharp/autofac/autofac-passo-per-passo.md)
   
 [Git](git/git.md)
+
 [Powershell](powershell/powershell.md)
 
+[Design]()
+
+* # Colori
+  * [Scelta cccolori](design/colors/color-choise.md)
 
 [gimmick:Theme](cosmo)
