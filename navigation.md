@@ -11,9 +11,9 @@
   * [Ef 6 guida passo per passo](csharp/entity-framework/ef-passo-per-passo.md)
   * [Ef 6 querys](csharp/entity-framework/ef-query.md)
   - - - -
-    * # Validazione in MVC con Jquery
+  * # Validazione in MVC con Jquery
   * [Validazione standard](csharp/mvc/validation/standard-validation.md)
-  * [Validazione custom]csharp/mvc/validation/customn-validation.md)
+  * [Validazione custom](csharp/mvc/validation/customn-validation.md)
   - - - -
   * # Autofac dependency injection
   * [Autofac guida passo per passo](csharp/autofac/autofac-passo-per-passo.md)
