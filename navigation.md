@@ -24,9 +24,11 @@
 
 [Powershell](powershell/powershell.md)
 
-[Design]()
+[Design e Usability]()
 
 * # Colori
 * [La scelta dei colori](design/colors/color-choise.md)
+* # Usability
+* [Principi da conoscere](design/usability/usability-basics.md)
 
 [gimmick:Theme](cosmo)
