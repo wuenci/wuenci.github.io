@@ -2,7 +2,7 @@
 
 [Programmazione]()
 
-  * # Le basi in C#
+  * # Le basi in C Sharp
   * [Event and delegates](csharp/delegates/delegates.md)
   * [Multithreading](csharp/threads/async.md)
   - - - -
