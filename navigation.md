@@ -1,8 +1,6 @@
 # 0x0000001A
 [Home](index.md)
 
-[Regex](regex/regex.md)
-
 [Programmazione C#]()
 
   * # Concetti
@@ -18,6 +16,8 @@
   * [Autofac guida passo per passo](csharp/autofac/autofac-passo-per-passo.md)
   
 [Git](git/git.md)
+
+[Regex](regex/regex.md)
 
 [Powershell](powershell/powershell.md)
 
