@@ -23,6 +23,6 @@
 [Design]()
 
 * # Colori
-  * [Scelta cccolori](design/colors/color-choise.md)
+* [La scelta dei colori](design/colors/color-choise.md)
 
 [gimmick:Theme](cosmo)
