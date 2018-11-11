@@ -9,6 +9,7 @@ https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-20
 | Edit.FormatSelection    | Ctrl+K, Ctrl+F           
 | Edit.CommentSelection   | Ctrl+K, Ctrl+C           
 | Edit.UncommentSelection | Ctrl+K, Ctrl+U           
+| Clean workspace         | Alt+W, l
 
 
 
@@ -20,4 +21,4 @@ https://www.jetbrains.com/help/resharper/Reference__Keyboard_Shortcuts.html
 |-------------------------|--------------------------|-----------------------------------------|--------------------------
 | Go To File              | Ctrl+Shift+T             | Ctrl+Shift+N                            | ReSharper_GotoFile       
 | Surround with template  | Ctrl+E,U                 | Ctrl+Alt+J                              | ReSharper_SurroundWith   
-
+| Go to file member       | Alt+\                    | Ctrl+F12                                | ReSharper_GotoFileMember
