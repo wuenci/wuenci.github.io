@@ -1,10 +1,10 @@
 # 0x0000001A
 
-[Programmazione C#]()
+[Programmazione]()
 
-  * # Concetti
-  * [Delegates](csharp/delegates/delegates.md)
-  * [Threads](csharp/threads/async.md)
+  * # Le basi in C#
+  * [Event and delegates](csharp/delegates/delegates.md)
+  * [Multithreading](csharp/threads/async.md)
   - - - -
   * # Entity Framework
   * [EF 6 le basi](csharp/entity-framework/entity-framework.md)
@@ -17,23 +17,24 @@
   - - - -
   * # Autofac dependency injection
   * [Autofac guida passo per passo](csharp/autofac/autofac-passo-per-passo.md)
+  - - - -
+  * # Espressioni regolari
+  * [Regex Mini HowTo](regex/regex.md)
 
 [Visual Studio]()
 
   * # Visual Studio e Resharper
   * [Visual Studio Sortcuts](visualstudio/vs-shortcuts.md)
 
-[Git Mini HowTo](git/git.md)
-
-[Espressioni regolari](regex/regex.md)
-
-[Powershell](powershell/powershell.md)
-
-[Design e Usability]()
+[UX Design e Usability]()
 
 * # Colori
 * [La scelta dei colori](design/colors/color-choise.md)
 * # Usability
 * [Principi da conoscere](design/usability/usability-basics.md)
+
+[Git Mini HowTo](git/git.md)
+
+[Powershell](powershell/powershell.md)
 
 [gimmick:Theme](cosmo)

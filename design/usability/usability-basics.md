@@ -16,5 +16,15 @@ Ogni Full Stack Developre deve conoscere questi principi chiave
     - Groupare campi con una relazione
     - Specificare il formato (watermark)
     - Impostare il focus sul primo campo.
+    
+3) Actions:
+    - Ogni form deve avere una azione primaria come: Save, Submit
+    - Secondary Actions devono essere ben distinguibile dalla primaria. (Cancel)
+    - Allineare primary actions con le input fields
 
-
+ 4) Validation
+    - Scrivere messaggi ben capibili
+    - Usare rosso per messaggi d'errore
+    - Usa verde per indicare il successo
+    - Reduce user's stress and guess work!
+    - Provide smart defaults
